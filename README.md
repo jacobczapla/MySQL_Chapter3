@@ -16,7 +16,7 @@ This is a Dynamic Web Page.
 ## Workers
 [@28cyager](https://github.com/28cyager) Christian Yager
 
-[jacobczapla](https://github.com/jacobczapla) Jacob Czapla
+[@jacobczapla](https://github.com/jacobczapla) Jacob Czapla
 
 
 ## New Concepts Used
