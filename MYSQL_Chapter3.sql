@@ -31,3 +31,19 @@ SELECT customer_id, first_name, last_name, email, active, create_date
 FROM customer
 WHERE email != CONCAT(first_name, '.', last_name, '@sakilacustomer.org');
 
+/****************************************************************************************************
+Jacob
+Query 3: Write a query that reports the following:
+ the current rental rate, what a 30% increase would be, and the new rental rate
+ only report the ones that have a rental rate that increased by over $0.50
+ order the report by amount increased descending
+ round all calculated values to 2 decimal positions
+ Note: to fully test this query, temporarily comment out the WHERE clause
+******************************************************************************************************/
+
+select title, rental_rate, 
+	round(rental_rate * 0.30, 2) AS amount_increased, 
+    	round(rental_rate * 1.30, 2) AS new_rental_rate
+from film
+where round(rental_rate * 0.30, 2) >= 0.50
+Order By amount_increased DESC;
