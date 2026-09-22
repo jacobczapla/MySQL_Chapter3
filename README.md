@@ -27,7 +27,8 @@ This is a Dynamic Web Page.
 
 ## Browser Output Example
 
-![Project Logo](assets/query2.png)
+##Query 2
+<img src="./assets/query2.png"alt = "Query 2" width="40%">
 
 
 [Back to Top](#single-query)
