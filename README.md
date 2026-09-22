@@ -26,6 +26,8 @@ This is a Dynamic Web Page.
 
 
 ## Browser Output Example
+##Query 1
+
 
 ##Query 2
 <img src="./assets/query2.png"alt = "Query 2" width="40%">
