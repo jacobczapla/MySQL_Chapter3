@@ -31,6 +31,7 @@ This is a Dynamic Web Page.
 
 ##Query 2
 <img src="./assets/query2.png"alt = "Query 2" width="40%">
+![Project Logo](assets/query2.png)
 
 
 [Back to Top](#single-query)
