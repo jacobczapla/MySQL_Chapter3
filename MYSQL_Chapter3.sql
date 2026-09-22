@@ -47,3 +47,17 @@ select title, rental_rate,
 from film
 where round(rental_rate * 0.30, 2) >= 0.50
 Order By amount_increased DESC;
+
+/****************************************************************************************************
+Christian
+Query 4: Write a query that reports the following:
+•	payment amount and date (MM-DD-YYYY) DATE FORMAT
+•	filter by payment date greater than 01-01-2006 inclusively and payment amount greater than 1.00 ORDER BY
+•	sort the query by payment amount ORDER BY
+•	Note: to thoroughly test the query comment out the WHERE clause to verify the filter is working correctly
+******************************************************************************************************/
+SELECT  amount, payment_date,
+	DATE_FORMAT(payment_date, "%m-%d-%Y") AS payment_date
+FROM payment
+WHERE payment_date >= "2006-01-01" AND amount > 1.00
+ORDER BY amount;
