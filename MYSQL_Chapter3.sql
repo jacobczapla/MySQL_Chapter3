@@ -129,3 +129,16 @@ from rental
 where return_date is NULL
 order by customer_id;
 
+/****************************************************************************************************
+Christian
+Query 10: Write a query that reports the following:
+•	unique districts
+•	sort by district
+•	limit the rows returned to start at the 2nd row and returning a total of 25 rows
+•	Note: to thoroughly test this query, temporarily remove the limit clause
+*******************************************************************************************************/
+
+SELECT distinct district
+FROM address
+ORDER BY district
+LIMIT 2, 25;
