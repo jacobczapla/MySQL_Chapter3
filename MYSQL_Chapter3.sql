@@ -104,6 +104,16 @@ From film
 where rating in ("G", "PG", "PG-13")
 order by  rating, title;
 
-
+/****************************************************************************************************
+Christian
+Query 8: Write a query that reports the following:
+•	films that have the words robot and squirrel in the description
+•	sort by title
+•	Note: to thoroughly test this query, temporarily comment out the WHERE clause
+******************************************************************************************************/
+SELECT title, description, rating
+FROM film
+WHERE description LIKE "%robot%" and description LIKE "%squirrel%"
+ORDER BY title
 
 
