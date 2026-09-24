@@ -36,5 +36,8 @@ This is a Dynamic Web Page.
 ##Query 3
 ![Project Logo](assets/query3.png)
 
+##Query 4
+![Project Logo](assets/query4.png)
+
 
 [Back to Top](#single-query)
