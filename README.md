@@ -50,5 +50,8 @@ This is a Dynamic Web Page.
 ##Query 8
 ![Project Logo](assets/query8.png)
 
+##Query 9
+![Project Logo](assets/query9.png)
+
 [Back to Top](#single-query)
 
