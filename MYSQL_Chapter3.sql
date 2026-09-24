@@ -92,6 +92,18 @@ FROM film
 WHERE (special_features LIKE "%Trailers%" OR special_features LIKE "%Behind the Scenes%") AND special_features NOT LIKE "%Commentaries%"
 ORDER BY title;
 
+/****************************************************************************************************
+Jacob
+Query 7: Write a query that reports the following:
+ films that are rated G, PG, and PG-13 (note: please use the IN phrase for this filter)
+ sort by rating and title
+ Note: to thoroughly test this query, temporarily comment out the WHERE clause
+******************************************************************************************************/
+SELECT title, rental_rate, rating
+From film 
+where rating in ("G", "PG", "PG-13")
+order by  rating, title;
+
 
 
 
