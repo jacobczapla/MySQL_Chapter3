@@ -116,4 +116,16 @@ FROM film
 WHERE description LIKE "%robot%" and description LIKE "%squirrel%"
 ORDER BY title
 
+/****************************************************************************************************
+Jacob
+Query 9: Write a query that reports the following:
+ unique customers who have NOT returned their rental
+ sort by customer id
+ Note: to thoroughly test this query, temporarily change the WHERE clause to report rentals that have been
+returned
+******************************************************************************************************/
+select distinct customer_id, return_date
+from rental 
+where return_date is NULL
+order by customer_id;
 
