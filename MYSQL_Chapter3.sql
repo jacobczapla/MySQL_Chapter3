@@ -61,3 +61,26 @@ SELECT  amount,
 FROM payment
 WHERE payment_date >= "2006-01-01" AND amount > 1.00
 ORDER BY amount;
+
+/****************************************************************************************************
+Jacob
+Query 5: Write a query that reports the following:
+ displaying only the first 50 characters of the description; followed by …
+ filter to only report rental durations between 3 and 6 (using the BETWEEN operator)
+ sort by the rental duration descending
+ Note: to thoroughly test, temporarily comment out the WHERE clause
+******************************************************************************************************/
+SELECT 
+    title, description AS info, rental_duration
+FROM
+    film
+WHERE
+    description < 50
+        AND rental_duration BETWEEN 3 AND 6
+ORDER BY rental_duration DESC;
+
+
+
+
+
+
