@@ -56,7 +56,7 @@ Query 4: Write a query that reports the following:
 •	sort the query by payment amount ORDER BY
 •	Note: to thoroughly test the query comment out the WHERE clause to verify the filter is working correctly
 ******************************************************************************************************/
-SELECT  amount, payment_date,
+SELECT  amount,
 	DATE_FORMAT(payment_date, "%m-%d-%Y") AS payment_date
 FROM payment
 WHERE payment_date >= "2006-01-01" AND amount > 1.00
