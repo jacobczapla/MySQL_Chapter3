@@ -30,7 +30,6 @@ This is a Dynamic Web Page.
 ![Project Logo](assets/query1.png)
 
 ##Query 2
-<img src="./assets/query2.png"alt = "Query 2" width="40%">
 ![Project Logo](assets/query2.png)
 
 ##Query 3
@@ -41,5 +40,9 @@ This is a Dynamic Web Page.
 
 ##Query 5
 ![Project Logo](assets/query5.png)
+
+##Query 6
+![Project Logo](assets/query6.png)
+
 [Back to Top](#single-query)
 
