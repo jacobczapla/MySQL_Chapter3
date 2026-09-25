@@ -138,7 +138,7 @@ Query 10: Write a query that reports the following:
 •	Note: to thoroughly test this query, temporarily remove the limit clause
 *******************************************************************************************************/
 
-SELECT distinct district
+SELECT DISTINCT district
 FROM address
 ORDER BY district
-LIMIT 2, 25;
+LIMIT 1, 25;
