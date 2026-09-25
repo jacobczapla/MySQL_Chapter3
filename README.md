@@ -7,11 +7,7 @@
 - [Browser Output Example](#browser-output-example)
 
 ## Summary
-This is a Dynamic Web Page.
-- Display information from a Database
-- Learn how to code a dynamic web page
-- Adding columns to a web page
-
+This is a list of queries done from a single table.
 
 ## Workers
 [@28cyager](https://github.com/28cyager) Christian Yager
@@ -20,9 +16,21 @@ This is a Dynamic Web Page.
 
 
 ## New Concepts Used
-- Dynamic Web Pages
-- Working with PHP files
-- MySQL Database
+- CONCAT
+- LEFT
+- ROUND
+- CURRENT_DATE
+- DATE_FORMAT
+- IN and BETWEEN
+- LIKE
+- IS NULL
+- IS NOT NULL
+- ASC
+- DESC
+- DISTINCT
+- LIMIT
+- logical operators
+- comparison operators
 
 
 ## Browser Output Example
